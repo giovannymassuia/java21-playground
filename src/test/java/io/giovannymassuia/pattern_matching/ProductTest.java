@@ -19,6 +19,10 @@ class ProductTest {
         Product regularMeat = new Food(10, 5,
                 new Food.Meat(5, false));
         assertEquals(15, regularMeat.calculatePrice());
+
+        Product anyOtherFood = new Food(10, 5,
+                new Food.Cheese());
+        assertEquals(15, anyOtherFood.calculatePrice());
     }
 
 }

@@ -18,7 +18,8 @@ public sealed interface Product permits Book, Food, Medicine {
             // Regular meat
             case Food(var price, var localTax, Food.Meat _) -> price + localTax;
 
-            case Food(var price, var localTax, Food.Cheese()) -> price + localTax;
+            // any other food
+            case Food(var price, var localTax, _) -> price + localTax;
 
             case Medicine(var price, var federalTax) -> price + federalTax;
         };
