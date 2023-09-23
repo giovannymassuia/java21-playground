@@ -1,4 +1,4 @@
-package io.giovannymassuia.pattern_matching;
+package io.giovannymassuia.patternmatching;
 
 import org.junit.jupiter.api.Test;
 

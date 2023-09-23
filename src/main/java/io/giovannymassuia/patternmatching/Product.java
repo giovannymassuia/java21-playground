@@ -1,4 +1,4 @@
-package io.giovannymassuia.pattern_matching;
+package io.giovannymassuia.patternmatching;
 
 public sealed interface Product permits Book, Food, Medicine {
 

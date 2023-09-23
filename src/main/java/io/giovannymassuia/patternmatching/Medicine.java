@@ -1,4 +1,4 @@
-package io.giovannymassuia.pattern_matching;
+package io.giovannymassuia.patternmatching;
 
 public record Medicine(int price, int federalTax) implements Product {
 

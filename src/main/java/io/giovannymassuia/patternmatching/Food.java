@@ -1,4 +1,4 @@
-package io.giovannymassuia.pattern_matching;
+package io.giovannymassuia.patternmatching;
 
 public record Food(int price, int localTax, FoodType type) implements Product {
 
